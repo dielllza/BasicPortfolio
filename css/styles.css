@@ -1,0 +1,128 @@
+/********************************Tag Selectors*******************************/
+
+body{
+	text-align: center;
+	margin: 0;
+	font-family: 'Merriweather', serif;
+}
+p{
+	line-height: 2;
+}
+
+h1{
+	margin-top: 1rem;
+	margin-bottom: 0;
+	color: #66BFBF;
+	margin: 100px auto;
+
+}
+h2{
+	font-weight: normal;S
+	margin-top: 0;
+	font-size: 2rem;
+	font-family: 'Montserrat', sans-serif;
+	color: #66BFBF;
+}
+h3,a{
+	color: #11999E;
+}
+a:hover{
+	color:#10818B;
+}
+hr{
+	border-width: 5px;
+	width: 8%;
+	height: 100%;
+	border-style: dotted none none none;
+	border-color: #EAF6F6;
+}
+
+/********************************Class Selectors*****************************/
+.greetings{	
+	background-color: #EAF6F6;
+	padding-top: 2%;
+	position: relative;
+}
+.top-cloud{
+	position: absolute;
+	left: 70%;
+	top: 20%;
+}
+.bottom-cloud{
+	position: absolute;
+	top: 50%;
+}
+.profile{
+	padding:  4%;
+}
+.intro{
+	width: 40%;
+	margin: auto;
+}
+.skill-row{
+	text-align: left;
+	width: 50%;
+	margin:4rem auto;
+}
+.skill-img-left{
+	width: 18%;
+	float: left;
+	margin-right: 8%
+}
+.skill-img-right{
+	width: 18%;
+	float: right;
+	margin-left: 8%;
+}
+.bottom-container{
+	padding: 2%;
+	background-color: #66BFBF;
+	margin: 3% 0 0;
+}
+.footer-link{
+	text-decoration: none;
+	color: #11999E;
+	margin: 2%;
+}
+.copyright{
+	color: white;
+}
+.job-offers{
+	margin-bottom: 2%;
+}
+.butn {
+  background: #11999E;
+  background-image: -webkit-linear-gradient(top, #11999E, #11999E);
+  background-image: -moz-linear-gradient(top, #11999E, #11999E);
+  background-image: -ms-linear-gradient(top, #11999E, #11999E);
+  background-image: -o-linear-gradient(top, #11999E, #11999E);
+  background-image: linear-gradient(to bottom, #11999E, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.butn:hover {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+  background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+  text-decoration: none;
+}
+/********************************ID Selectors********************************/
+
+#JobFont{
+	font-family: 'Montserrat', sans-serif;
+}
+#NameFont{
+	margin: 2%;
+	font-size: 560%;
+	font-family: 'Sacramento', cursive;
+}
